@@ -41,6 +41,7 @@ if __name__ == '__main__':
 
     reviews = []
     for game in games:
+        # creates a list of reviews within the range of 1-5 using random int
         for i in range(random.randint(1,5)):
             review = Review(
                 score=random.randint(0, 10),
